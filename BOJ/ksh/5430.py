@@ -6,3 +6,4 @@ AC
 
 a = input()
 print(a)
+b = input()
