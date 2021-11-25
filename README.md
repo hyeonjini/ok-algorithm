@@ -7,9 +7,19 @@
 &nbsp;
 
 ## 🔥진행방식🔥 
-- 매 주 5문제씩 풀이 후 업로드
+### BOJ 매 주 7문제씩 선정
+1. 그리디 (필수)
+2. 구현 (필수)
+3. 정렬
+4. 이진탐색
+5. DFS/BFS
+6. 그래프이론 (크루스칼, 다익스트라, 플로이드, 위상정렬)
+7. DP
+
 - 격 주로 모의테스트와 리뷰 번갈아 진행
 - 각자 1~2 문제씩 맡아서 리뷰
+
+### 
 
 &nbsp;
 
@@ -17,6 +27,7 @@
 - write here
 - [hayagou](https://github.com/hayagou)
 - [hyeonjini](https://github.com/hyeonjini)
+- [JaeYeonG1](https://github.com/JaeyeonG1)
 &nbsp;
 
 
