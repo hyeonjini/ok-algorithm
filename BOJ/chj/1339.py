@@ -13,14 +13,28 @@ def solution(n, words):
     allocate = {}
 
     for word in words:
-        pass
-    
-    # allocate number
-    # input words
+        for i in range(len(word)):
+            try:
+                allocate[word[i]] += 10 ** (len(word) - i)
+            except:
+                allocate[word[i]] = 10 ** (len(word) - i)
 
+    # print(allocate)
+    weights = sorted(allocate.items(), key = lambda x : x[1], reverse=True)
+    # allocate = [(key, 9 - num) for num, (key, value) in enumerate(allocate)]
+    for num, (key, value) in enumerate(weights):
+        allocate[key] = 9 - num
+    # print(allocate)
+
+    for word in words:
+        op = ''
+        for i in range(len(word)):
+            op += str(allocate[word[i]])
+        # print(int(op))
+        answer += int(op)
+    
     return answer
-def get_next_index(word):
-    return 0
+
 if __name__ == "__main__":
     n = int(input())
     words = []
