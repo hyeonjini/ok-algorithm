@@ -51,7 +51,6 @@ int main() {
 					else {
 						right--;
 					}
-					
 				}
 				else {
 					result = "error";
@@ -60,6 +59,8 @@ int main() {
 				
 			}
 		}
+
+
 		if (i_len >= 0) {
 			cout << "[";
 			if (togle) {
