@@ -30,6 +30,7 @@ def solution(commands, arr):
 if __name__ == "__main__":
     t = int(input())
     answers = []
+
     for tc in range(t):
         commands = list(input().rstrip())
         # print(commands)
