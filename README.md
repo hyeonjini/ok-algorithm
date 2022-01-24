@@ -29,6 +29,7 @@
 - [hyeonjini](https://github.com/hyeonjini)
 - [JaeYeonG1](https://github.com/JaeyeonG1)
 - [ChangXXX](https://github.com/ChangXXX)
+- [GideokLee](https://github.com/Gideok)
 &nbsp;
 
 
